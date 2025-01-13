@@ -27,15 +27,24 @@ Le cipher de Vigenère est une méthode chiffrement à clé. Sans clé le code n
 ### Voici comment cela fonctionne :
 
 On commence avec un message clair, par exemple : "BONJOUR".
+
 On choisit un mot clé, par exemple : "CLEF".
+
 On répète le mot clé autant de fois que nécessaire pour couvrir tout le message : CLEFCLE.
+
 Chaque lettre du message est alors décalée différemment en fonction de la lettre correspondante du mot clé. Par exemple :
+
 La première lettre "B" est décalée selon "C" (décalage de 2).
+
 La deuxième lettre "O" est décalée selon "L" (décalage de 11).
+
 Et ainsi de suite.
 
 _Résultat :_
+
 _Message clair : BONJOUR_
+
 _Mot clé répété : CLEFCLE_
+
 _Message chiffré : DQRNFYU_
 
