@@ -22,6 +22,7 @@ C'est une méthode qui sert à transformer un message/texte compréhensible en u
 
 Le cipher de Vigenère est une méthode chiffrement à clé. Sans clé le code ne peut être déchiffré. On utilise pour déchiffré majoritairement le tableau ci dessous :
 
+![VigenereSquare2](https://github.com/user-attachments/assets/e603b3e8-6bd5-4df7-8652-703690123495)
 
 
 ### Voici comment cela fonctionne :
